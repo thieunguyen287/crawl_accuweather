@@ -14,6 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/thieunguyen287/crawl_accuweather",
     packages=setuptools.find_packages(),
+    install_requires=['mysql-connector-python'],
     classifiers=(
         "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
