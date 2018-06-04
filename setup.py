@@ -8,6 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Thieu Nguyen",
     author_email="thieunguyen287@gmail.com",
+    entry_points={'scrapy': ['settings = crawl_accuweather.settings']},
     description="Accuweather crawler",
     long_description=long_description,
     long_description_content_type="text/markdown",
