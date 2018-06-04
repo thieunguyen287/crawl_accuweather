@@ -1,6 +1,4 @@
 from datetime import datetime
-
-import numpy as np
 import mysql
 from mysql.connector import cursor
 
